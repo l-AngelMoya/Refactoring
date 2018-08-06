@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package switchstatements;
+package SinCodeSmell;
+
+import ConCodeSmell.*;
 
 /**
  *
  * @author Angel Moya
  */
-public class SwitchStatements {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Prueba {
+    public static void main(String args[]) {
+        Animal gato=new Animal();
+        
+        System.out.println(gato.Ladrar());
     }
-    
 }
