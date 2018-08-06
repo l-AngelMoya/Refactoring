@@ -5,8 +5,6 @@
  */
 package SinCodeSmell;
 
-import ConCodeSmell.*;
-
 /**
  *
  * @author Angel Moya
@@ -14,7 +12,11 @@ import ConCodeSmell.*;
 public class Prueba {
     public static void main(String args[]) {
         Animal gato=new Animal();
+        //Error
+        //System.out.println(gato.Ladrar());
         
-        System.out.println(gato.Ladrar());
+        Perro perro=new Perro();
+        System.out.println(perro.Ladrar());
+        
     }
 }
