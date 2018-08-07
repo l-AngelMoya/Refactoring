@@ -74,5 +74,5 @@ public class SinCodeSmellEstudiante {
         this.Edad = Edad;
     }
     
-    
+        
 }
